@@ -5,7 +5,7 @@
         <li class=mb-4>
             <div class="flex items-center text-sm">
                 <img 
-                    src="/images/image-1.png" 
+                    src="/images/{{ $tweet->user->id }}.png" 
                     alt=""
                     class="rounded-full mr-2"
                 >
