@@ -22,5 +22,7 @@ Route::middleware('auth')->group(function(){
     Route::post('/tweets', 'TweetsController@store');
 });
 
+Route::get('/profiles/{user}', 'ProfilesController@show')->name('profile');
+
 Auth::routes();
 
