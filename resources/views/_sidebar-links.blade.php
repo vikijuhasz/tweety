@@ -14,39 +14,7 @@
         >Explore
         </a>
     </li>
-
-    <li>
-        <a
-            class="font-bold text-lg mb-4 block"
-            href="/explore"
-        >Notifications
-        </a>
-    </li>
-
-    <li>
-        <a
-            class="font-bold text-lg mb-4 block"
-            href="/explore"
-        >Messages
-        </a>
-    </li>
-
-    <li>
-        <a
-            class="font-bold text-lg mb-4 block"
-            href="/explore"
-        >Bookmarks
-        </a>
-    </li>
-
-    <li>
-        <a
-            class="font-bold text-lg mb-4 block"
-            href="/explore"
-        >Lists
-        </a>
-    </li>
-
+    
     <li>
         <a
             class="font-bold text-lg mb-4 block"
@@ -56,11 +24,10 @@
     </li>
 
     <li>
-        <a
-            class="font-bold text-lg mb-4 block"
-            href="/explore"
-        >More
-        </a>
+        <form method="POST" action="/logout">
+            @csrf
+            <button class="font-bold text-lg">Logout</button>
+        </form>
     </li>
 
 
